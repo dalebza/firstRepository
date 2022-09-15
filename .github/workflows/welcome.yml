@@ -3,5 +3,6 @@ on:
   pull_request:
     types: [opened]
 jobs:
-  build: Post welcome comment
-  runs-on: ubuntu-latest
+  build:
+    name: Post welcome comment
+    runs-on: ubuntu-latest
